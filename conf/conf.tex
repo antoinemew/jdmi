@@ -15,7 +15,7 @@
 \author{GConfs}
 \title[Journée de découverte des métiers de l’ingénieur]{Atelier de découverte
 de la programmation\\
-\includegraphics[scale=0.2]{img/gconfs}
+\includegraphics[scale=0.18]{img/gconfs}
 }
 \usetheme{Hannover}
 \begin{document}
@@ -94,6 +94,31 @@ tourner_droite (100)
        print (i)
     \end{lstlisting}
     Sortie : \verb+4 5+
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Les conditions}
+\begin{itemize}
+\item \verb+if else+ :
+    \begin{lstlisting}
+    age = 17
+    if age < 18:
+        print("Mineur")
+    else:
+        print("Majeur")
+    \end{lstlisting}
+    Sortie : \verb+Majeur+
+\item \verb+elif+ :
+    \begin{lstlisting}
+    age = 18
+    if age < 18:
+        print("Mineur")
+    elif age == 18:
+        print("Tout juste majeur")
+    else:
+        print("Majeur")
+    \end{lstlisting}
+    Sortie : \verb+Tout juste majeur+
 \end{itemize}
 \end{frame}
 
